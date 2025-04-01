@@ -29,6 +29,10 @@ export const Header = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <header
       className={cn(
@@ -85,6 +89,15 @@ export const Header = () => {
           mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
+        <Button 
+          variant="ghost" 
+          size="icon" 
+          className="absolute top-4 right-4"
+          onClick={closeMobileMenu}
+          aria-label="Close menu"
+        >
+          <X className="h-6 w-6" />
+        </Button>
         <nav className="container">
           <ul className="flex flex-col space-y-6 text-center text-lg">
             {navLinks.map((link) => (
@@ -92,7 +105,7 @@ export const Header = () => {
                 <a
                   href={link.href}
                   className="block py-2 text-foreground/80 hover:text-highlight transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={closeMobileMenu}
                 >
                   {link.name}
                 </a>
