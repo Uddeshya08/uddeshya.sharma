@@ -69,7 +69,7 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="block font-bold text-foreground text-4xl md:text-6xl">John Doe</span>
+            <span className="block font-bold text-foreground text-4xl md:text-6xl">Uddeshya Sharma</span>
             <span className="block text-xl md:text-2xl text-highlight mt-2 h-8 inline-flex items-center">
               {displayText}<span className="animate-pulse ml-1">|</span>
             </span>

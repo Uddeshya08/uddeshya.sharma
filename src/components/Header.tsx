@@ -44,7 +44,7 @@ export const Header = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#" className="text-xl font-bold">
-          <span className="text-highlight">John</span> Doe
+          <span className="text-highlight">Uddeshya</span> Sharma
         </a>
 
         {/* Desktop Navigation */}

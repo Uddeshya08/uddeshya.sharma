@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <div className="text-xl font-bold mb-2">
-              <span className="text-highlight">John</span> Doe
+              <span className="text-highlight">Uddeshya</span> Sharma
             </div>
             <p className="text-muted-foreground text-sm">
               Full-Stack Developer specializing in Java & Angular
@@ -48,7 +48,7 @@ export const Footer = () => {
         </div>
         
         <div className="mt-6 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} John Doe. All rights reserved.</p>
+          <p>© {currentYear} Uddeshya Sharma. All rights reserved.</p>
           <p className="mt-1">
             Built with React, TailwindCSS & shadcn/ui
           </p>
