@@ -12,7 +12,7 @@ import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <ThemeProvider defaultTheme="light">
+    <ThemeProvider defaultTheme="dark">
       <div className="min-h-screen flex flex-col">
         <Header />
         <main>
